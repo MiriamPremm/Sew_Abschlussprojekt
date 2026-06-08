@@ -13,11 +13,6 @@ public class GUI_ToDoListe extends Application {
 
         CheckBox cd = new CheckBox("Mathe lernen");
 
-
-
-
-
-
         /*VBox vbox1 = new VBox(10);
         stage.setTitle("HBox in BorderPane");
 
