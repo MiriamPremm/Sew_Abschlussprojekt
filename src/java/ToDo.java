@@ -1,6 +1,10 @@
-package Java;
+package java;
 
 public class ToDo {
+
+    private static int naechsteId = 1;
+    private int id;
+
     private String titel;
     //LocalDate??
     private String faelligkeit;
@@ -8,10 +12,16 @@ public class ToDo {
 
     // Erstellt neues To-Do objekt mit fixem titel und datum
     public ToDo(String titel, String faelligkeit){
+        //nimmt die aktuelle nächste id und gibt sie dem erstellten to-do
+        this.id = naechsteId;
+        //erhöht nächsteId für das nächste Objekt
+        naechsteId++;
+
         this.titel = titel;
         this.faelligkeit = faelligkeit;
         //am anfang immer falsch
         this.erledigt = false;
+
     }
 
 
@@ -40,6 +50,13 @@ public class ToDo {
         this.erledigt = erledigt;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     //to-String Methode
     public String toString(){
