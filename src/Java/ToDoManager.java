@@ -4,12 +4,7 @@ import java.util.ArrayList;
 
 public class ToDoManager {
     // Liste zum speichern von allen todos
-    private ArrayList<ToDo> todos;
-
-    //Erstellt neuen todoManager mit leerer lsite
-    public ToDoManager() {
-        this.todos = new ArrayList<>();
-    }
+    private ArrayList<ToDo> todos = new ArrayList<>();
 
     public void addToDo(String titel, String faelligkeit) {
         ToDo todo = new ToDo(titel, faelligkeit);
