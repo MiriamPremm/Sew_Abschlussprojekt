@@ -2,6 +2,7 @@ package Java;
 
 public class ToDo {
     private String titel;
+    //LocalDate??
     private String faelligkeit;
     private boolean erledigt;
 
