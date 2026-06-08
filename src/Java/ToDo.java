@@ -42,6 +42,14 @@ public class ToDo {
 
     //to-String Methode
     public String toString(){
-        return titel + "    " + faelligkeit;
+        String status;
+
+        if (erledigt) {
+            status = "erledigt";
+        } else {
+            status = "offen";
+        }
+
+        return status + ": " + titel + " - fällig am: " + faelligkeit;
     }
 }
