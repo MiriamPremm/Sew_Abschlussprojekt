@@ -12,13 +12,12 @@ public class TestMain {
         Liste1.markErledigt(0);
 
         System.out.println();
-        System.out.println("Nach dem Erledigen:");
         Liste1.printToDo();
 
         Liste1.removeToDo(1);
-
         System.out.println();
-        System.out.println("Nach dem Entfernen:");
+
+
         Liste1.printToDo();
     }
 }
