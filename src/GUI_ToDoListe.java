@@ -1,3 +1,4 @@
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.CheckBox;
@@ -17,7 +18,7 @@ public class GUI_ToDoListe extends Application {
         stage.setTitle("HBox in BorderPane");
 
         TextField aufgabeFeld = new TextField();
-        aufgabeFeld.setPromptText("Neue Aufgabe eingeben");    */
+        aufgabeFeld.setPromptText("Neue Aufgabe eingeben");
 
         BorderPane borderPane = new BorderPane();
         Scene scene = new Scene(borderPane, 400, 200); // w, h
@@ -31,3 +32,5 @@ public class GUI_ToDoListe extends Application {
         launch(args);
     }
 }
+
+
