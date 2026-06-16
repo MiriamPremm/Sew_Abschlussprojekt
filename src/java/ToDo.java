@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Speichert eine einzelne To-Do-Aufgabe.
+ * Speichert eine einzige To-Do-Aufgabe.
  */
 public class ToDo {
 
