@@ -14,7 +14,7 @@ import java.util.Optional;
 
 
 public class GUI_ToDoListe extends Application {
-    @Override
+    /*@Override
     public void start(Stage stage) {
         VBox root = new VBox(10);
         root.setPadding(new Insets(15));
@@ -61,8 +61,8 @@ public class GUI_ToDoListe extends Application {
 
     public static void main(String[] args) {
         launch(args);
-    }
-    /*@Override
+    }*/
+    @Override
     public void start(Stage stage) {
 
         Button button = new Button("Add");
@@ -71,21 +71,7 @@ public class GUI_ToDoListe extends Application {
 
         VBox aufgaben = new VBox(10);
 
-        /*button.setOnAction(e -> {
-            TextInputDialog dialog = new TextInputDialog();
-
-            dialog.setTitle("Neue Aufgabe");
-            dialog.setHeaderText("To-Do hinzufügen");
-            dialog.setContentText("Aufgabe:");
-
-            Optional<String> result = dialog.showAndWait();
-            //maybeString.get();
-            if(result.isPresent()) {
-
-                CheckBox box =
-                        new CheckBox(result.get());
-
-                liste.getChildren().add(box);
+        button.setOnAction(e -> {
 
         });
 
@@ -99,5 +85,5 @@ public class GUI_ToDoListe extends Application {
 
     public static void main(String[] args) {
         launch(args);
-    }*/
+    }
 }
