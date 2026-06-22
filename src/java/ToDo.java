@@ -4,12 +4,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Speichert eine einzige To-Do-Aufgabe.
+ * Speichert eine einzige To-Do-Aufgabe
  */
 public class ToDo {
 
     /**
-     * Zählt die IDs für neue To-Dos hoch.
+     * Zählt die IDs für neue To-Dos hoch
      */
     private static int naechsteId = 1;
 
@@ -19,7 +19,7 @@ public class ToDo {
     private boolean erledigt;
 
     /**
-     * Erstellt ein neues To-Do.
+     * Erstellt ein neues To-Do
      *
      * @param titel Titel der Aufgabe
      * @param faelligkeit Datum, bis wann die Aufgabe fertig sein soll
@@ -83,7 +83,7 @@ public class ToDo {
     }
 
     /**
-     * Gibt das To-Do als Text zurück.
+     * Gibt das To-Do als Text zurück
      *
      * @return To-Do mit ID, Status, Titel und Datum
      */

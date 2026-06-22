@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * Verwaltet alle To-Dos.
+ * Verwaltet alle To-Dos
  */
 public class ToDoManager {
 
     private ArrayList<ToDo> todos = new ArrayList<>();
 
     /**
-     * Fügt ein neues To-Do hinzu.
+     * Fügt ein neues To-Do hinzu
      *
      * @param titel Titel der Aufgabe
      * @param faelligkeit Fälligkeitsdatum der Aufgabe
@@ -22,7 +22,7 @@ public class ToDoManager {
     }
 
     /**
-     * Entfernt ein To-Do über seine ID.
+     * Entfernt ein To-Do über seine ID
      *
      * @param id ID des To-Dos
      */
@@ -36,7 +36,7 @@ public class ToDoManager {
     }
 
     /**
-     * Markiert ein To-Do als erledigt.
+     * Markiert ein To-Do als erledigt
      *
      * @param id ID des To-Dos
      */
@@ -50,7 +50,7 @@ public class ToDoManager {
     }
 
     /**
-     * Setzt den Status eines To-Dos.
+     * Setzt den Status eines To-Dos
      *
      * @param id ID des To-Dos
      * @param erledigt true = erledigt, false = offen
@@ -65,7 +65,7 @@ public class ToDoManager {
     }
 
     /**
-     * Bearbeitet ein vorhandenes To-Do.
+     * Bearbeitet ein vorhandenes To-Do
      *
      * @param id ID des To-Dos
      * @param neuerTitel neuer Titel
@@ -82,7 +82,7 @@ public class ToDoManager {
     }
 
     /**
-     * Sucht ein To-Do über die ID.
+     * Sucht ein To-Do über die ID
      *
      * @param id gesuchte ID
      * @return gefundenes To-Do oder null
@@ -98,7 +98,7 @@ public class ToDoManager {
     }
 
     /**
-     * Gibt alle To-Dos in der Konsole aus.
+     * Gibt alle To-Dos in der Konsole aus
      */
     public void printToDo() {
         for (ToDo todo : todos) {
@@ -107,7 +107,7 @@ public class ToDoManager {
     }
 
     /**
-     * Gibt alle gespeicherten To-Dos zurück.
+     * Gibt alle gespeicherten To-Dos zurück
      *
      * @return Liste aller To-Dos
      */
